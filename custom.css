@@ -1,3 +1,6 @@
+
+
+/* COLORS */
 [data-theme='minimal'] {
     --color-navyblue: #2b2d42; 
     --color-midgrey: #8d99ae; 
@@ -11,7 +14,6 @@ body {
 }
 
 
-
 /* HERO */
 /* HERO */
 /* HERO */
@@ -23,5 +25,26 @@ body {
     background-size: cover; 
 }
 
-/* COLORS */
+.hero-title { 
+    color: var(--color-lightgrey); 
+    text-shadow: 2px 2px 10px var(--color-navyblue);
+}
 
+.hero-support { 
+    color: white; 
+    font-weight: 800; 
+    text-shadow: 1px 1px 3px black; 
+}   
+
+
+/***NAVBAR***/
+/***NAVBAR***/
+/***NAVBAR***/
+ .site-nav-brand { 
+    color: var(---color-darkred);
+ }
+
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-navyblue) 88%, transparent);
+    backdrop-filter: blur(10px);
+}
