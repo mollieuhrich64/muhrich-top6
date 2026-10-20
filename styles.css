@@ -34,9 +34,12 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 */
 
 /* ============================================================ SHARED BITS */
-
 /* Base-content, not primary: many themes' primary is a pastel meant for fills,
  * and it fails contrast as small text. Measure before you change it. */
+
+
+
+
 .eyebrow {
   font-size: 0.75rem;
   font-weight: 700;
